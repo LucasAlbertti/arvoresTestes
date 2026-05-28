@@ -1,0 +1,13 @@
+# Arquivos gerados por compilação/debug
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.out
+
+# Pastas comuns de build
+Debug/
+Release/
+x64/
+x86/
+.vs/

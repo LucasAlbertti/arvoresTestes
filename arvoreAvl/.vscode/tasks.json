@@ -1,0 +1,29 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: cl.exe build all sources",
+            "command": "cl.exe",
+            "args": [
+                "/Zi",
+                "/EHsc",
+                "/nologo",
+                "/Fe${workspaceFolder}\\arvoreAvl\\main_avl.exe",
+                "main_avl.c",
+                "mapa.c"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}\\arvoreAvl"
+            },
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build all source files in the workspace."
+        }
+    ],
+    "version": "2.0.0"
+}
